@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "server_locations",
+  "info": {
+    "singularName": "server-location",
+    "pluralName": "server-locations",
+    "displayName": "Server Location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slices": {
+      "type": "dynamiczone",
+      "components": [
+        "pricing-table.pricing-table"
+      ]
+    },
+    "Country": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Technology": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "IPv4": {
+      "type": "string"
+    },
+    "IPv6": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    }
+  }
+}

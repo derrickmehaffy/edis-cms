@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_pricing_table_pricing_plans",
+  "info": {
+    "displayName": "Pricing Plan"
+  },
+  "options": {},
+  "attributes": {
+    "PlanUrl": {
+      "type": "string"
+    },
+    "PlanName": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "RAM": {
+      "type": "biginteger"
+    },
+    "SSD": {
+      "type": "biginteger"
+    },
+    "vCPU": {
+      "type": "integer"
+    },
+    "Traffic": {
+      "type": "biginteger"
+    },
+    "SharedUplink": {
+      "type": "string"
+    }
+  }
+}
