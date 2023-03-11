@@ -27,7 +27,7 @@ jobs:
       - run: |
           npm i
           npm run build
-          pm2 stop npm --name "edis-cms"
+          pm2 stop 0
           pm2 start npm --name "edis-cms" -- run start
           pm2 save
           sudo service nginx restart
