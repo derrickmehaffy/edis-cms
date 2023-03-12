@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "slices": {
-      "type": "dynamiczone",
-      "components": ["pricing-table.pricing-table"]
-    },
     "Country": {
       "type": "string"
     },
@@ -41,6 +37,10 @@
     },
     "Longitude": {
       "type": "float"
+    },
+    "dynamic": {
+      "type": "dynamiczone",
+      "components": ["pricing-table.pricing-table", "elements.link"]
     }
   }
 }
