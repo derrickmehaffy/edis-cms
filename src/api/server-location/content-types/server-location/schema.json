@@ -41,12 +41,6 @@
     },
     "Longitude": {
       "type": "float"
-    },
-    "Longitude2": {
-      "type": "float"
-    },
-    "Longitude3": {
-      "type": "float"
     }
   }
 }
