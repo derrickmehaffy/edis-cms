@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "kill": "killall -9 node"
   },
   "dependencies": {
     "@strapi/plugin-graphql": "^4.7.1",
