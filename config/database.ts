@@ -34,8 +34,8 @@ export default ({ env }) => {
         connectionString: env("DATABASE_URL"),
         host: env("DATABASE_HOST", "localhost"),
         port: env.int("DATABASE_PORT", 5432),
-        database: env("DATABASE_NAME", "IlirAdmin"),
-        user: env("DATABASE_USERNAME", "IlirAdmin"),
+        database: env("DATABASE_NAME", "edisdb"),
+        user: env("DATABASE_USERNAME", "edisdb"),
         password: env("DATABASE_PASSWORD", "IlirAdmin1214!"),
         ssl: env.bool("DATABASE_SSL", false) && {
           key: env("DATABASE_SSL_KEY", undefined),
