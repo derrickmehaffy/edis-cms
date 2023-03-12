@@ -32,8 +32,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-          npm run kill
           npm i
           npm run build
-          npm run start
+          pm2 stop edis-cms
+          pm2 start npm --name "edis-cms" -- run start
+          pm2 save
           sudo service nginx restart
