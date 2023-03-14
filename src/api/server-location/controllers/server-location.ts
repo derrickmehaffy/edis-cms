@@ -8,11 +8,11 @@ export default factories.createCoreController(
   "api::server-location.server-location",
   ({ strapi }) => ({
     async findOne(ctx) {
-      const { slug } = ctx.params;
+      const { id } = ctx.params;
       const entity = await strapi.db
         .query("api::server-location.server-location")
         .findOne({
-          where: { slug },
+          where: { slug: id },
         });
 
       const sanitizedEntity = await this.sanitizeOutput(entity);

@@ -38,6 +38,11 @@
     "Longitude": {
       "type": "float"
     },
+    "Cover": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
     "dynamic": {
       "type": "dynamiczone",
       "components": ["pricing-table.pricing-table", "elements.link"]
