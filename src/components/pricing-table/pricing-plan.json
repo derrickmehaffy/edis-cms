@@ -5,10 +5,10 @@
   },
   "options": {},
   "attributes": {
-    "PlanUrl": {
+    "PlanName": {
       "type": "string"
     },
-    "PlanName": {
+    "PlanUrl": {
       "type": "string"
     },
     "Price": {
