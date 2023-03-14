@@ -18,6 +18,30 @@
     "City": {
       "type": "string"
     },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "IPv4": {
+      "type": "string"
+    },
+    "IPv6": {
+      "type": "string"
+    },
+    "HundredMB": {
+      "type": "string",
+      "unique": true
+    },
+    "ThousandMB": {
+      "type": "string",
+      "unique": true
+    },
+    "TenThousandMB": {
+      "type": "string",
+      "unique": true
+    },
     "Technology": {
       "type": "string"
     },
@@ -26,22 +50,11 @@
       "required": true,
       "unique": true
     },
-    "IPv4": {
-      "type": "string"
-    },
-    "IPv6": {
-      "type": "string"
-    },
-    "Latitude": {
-      "type": "float"
-    },
-    "Longitude": {
-      "type": "float"
-    },
     "Cover": {
-      "allowedTypes": ["images"],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
     },
     "dynamic": {
       "type": "dynamiczone",
