@@ -54,22 +54,17 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "dynamic": {
-      "type": "dynamiczone",
-      "components": [
-        "pricing-table.pricing-table",
-        "elements.link"
-      ]
+      "allowedTypes": ["images"]
     },
     "continent": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::continent.continent",
       "inversedBy": "server_locations1"
+    },
+    "dynamic": {
+      "type": "dynamiczone",
+      "components": ["pricing-table.pricing-table", "elements.link"]
     }
   }
 }
