@@ -16,10 +16,11 @@
       "type": "string",
       "required": true
     },
-    "server_locations": {
+    "server_locations1": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::server-location.server-location"
+      "target": "api::server-location.server-location",
+      "mappedBy": "continent"
     }
   }
 }
