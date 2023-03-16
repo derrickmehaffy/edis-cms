@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_elements_call_to_actions",
+  "collectionName": "components_molecules_call_to_actions",
   "info": {
     "displayName": "Call to action"
   },
@@ -8,7 +8,7 @@
     "callToAction": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.cta"
+      "component": "atoms.cta"
     }
   }
 }

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pricing_table_pricing_plans",
   "info": {
-    "displayName": "Pricing Plan"
+    "displayName": "Pricing Plan",
+    "description": ""
   },
   "options": {},
   "attributes": {

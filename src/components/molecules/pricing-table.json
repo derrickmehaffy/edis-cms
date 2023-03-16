@@ -1,14 +1,15 @@
 {
   "collectionName": "components_pricing_table_pricing_tables",
   "info": {
-    "displayName": "Pricing Table"
+    "displayName": "Pricing Table",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "plan": {
       "type": "component",
       "repeatable": true,
-      "component": "pricing-table.pricing-plan"
+      "component": "atoms.pricing-plan"
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_molecules_speed_test_holders",
+  "info": {
+    "displayName": "Speed Test Holder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "speedTest": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.speed-test"
+    }
+  }
+}

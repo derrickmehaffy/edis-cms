@@ -1,14 +1,15 @@
 {
   "collectionName": "components_elements_ctas",
   "info": {
-    "displayName": "CTA"
+    "displayName": "CTA",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "bgGradient": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.gradient"
+      "component": "atoms.gradient"
     },
     "content": {
       "type": "richtext"
@@ -16,7 +17,7 @@
     "link": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.link"
+      "component": "atoms.link"
     }
   }
 }
