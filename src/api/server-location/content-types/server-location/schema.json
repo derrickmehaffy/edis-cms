@@ -69,7 +69,7 @@
       "components": [
         "pricing-table.pricing-table",
         "elements.speed-test",
-        "elements.cta"
+        "elements.call-to-action"
       ]
     }
   }

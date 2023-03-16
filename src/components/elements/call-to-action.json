@@ -7,7 +7,7 @@
   "attributes": {
     "callToAction": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "elements.cta"
     }
   }
