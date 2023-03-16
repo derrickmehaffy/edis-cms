@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_ctas",
+  "info": {
+    "displayName": "CTA"
+  },
+  "options": {},
+  "attributes": {
+    "bgGradient": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.gradient"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    }
+  }
+}

@@ -54,7 +54,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "continent": {
       "type": "relation",
@@ -64,7 +66,11 @@
     },
     "dynamic": {
       "type": "dynamiczone",
-      "components": ["pricing-table.pricing-table", "elements.link"]
+      "components": [
+        "pricing-table.pricing-table",
+        "elements.speed-test",
+        "elements.cta"
+      ]
     }
   }
 }

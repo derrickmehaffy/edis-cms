@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_gradient_gradients",
+  "info": {
+    "displayName": "Gradient",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color1": {
+      "type": "string"
+    },
+    "color2": {
+      "type": "string"
+    }
+  }
+}

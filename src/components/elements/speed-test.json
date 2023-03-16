@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_speed_test_speed_tests",
+  "info": {
+    "displayName": "Speed Test",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "IPv4": {
+      "type": "string"
+    },
+    "IPv6": {
+      "type": "string"
+    },
+    "hundredMB": {
+      "type": "string"
+    },
+    "thousandMB": {
+      "type": "string"
+    },
+    "tenThousandMB": {
+      "type": "string"
+    }
+  }
+}
