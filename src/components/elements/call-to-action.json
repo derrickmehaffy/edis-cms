@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_call_to_actions",
+  "info": {
+    "displayName": "Call to action"
+  },
+  "options": {},
+  "attributes": {
+    "callToAction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.cta"
+    }
+  }
+}
