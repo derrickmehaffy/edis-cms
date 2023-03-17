@@ -18,6 +18,7 @@
       "enum": [
         "text",
         "textButton",
+        "outlinedButton",
         "button"
       ],
       "required": true,
