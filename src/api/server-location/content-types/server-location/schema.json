@@ -70,7 +70,8 @@
         "molecules.pricing-table",
         "molecules.call-to-action",
         "molecules.speed-test-holder",
-        "atoms.link"
+        "atoms.link",
+        "atoms.spacer"
       ]
     }
   }

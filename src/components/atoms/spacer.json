@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_atoms_spacers",
+  "info": {
+    "displayName": "Spacer"
+  },
+  "options": {},
+  "attributes": {
+    "space": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
