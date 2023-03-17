@@ -18,6 +18,10 @@
       "type": "component",
       "repeatable": false,
       "component": "atoms.link"
+    },
+    "TextColor": {
+      "type": "string",
+      "default": "white"
     }
   }
 }
