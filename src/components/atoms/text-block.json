@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_atoms_text_blocks",
+  "info": {
+    "displayName": "Text Block"
+  },
+  "options": {},
+  "attributes": {
+    "textBlockContent": {
+      "type": "richtext"
+    }
+  }
+}

@@ -71,7 +71,8 @@
         "molecules.call-to-action",
         "molecules.speed-test-holder",
         "atoms.link",
-        "atoms.spacer"
+        "atoms.spacer",
+        "atoms.text-block"
       ]
     }
   }
