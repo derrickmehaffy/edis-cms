@@ -17,10 +17,11 @@
       "type": "enumeration",
       "enum": [
         "text",
-        "text button",
+        "textButton",
         "button"
       ],
-      "required": true
+      "required": true,
+      "default": "text"
     }
   }
 }
