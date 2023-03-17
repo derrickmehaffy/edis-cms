@@ -69,7 +69,8 @@
       "components": [
         "molecules.pricing-table",
         "molecules.call-to-action",
-        "molecules.speed-test-holder"
+        "molecules.speed-test-holder",
+        "atoms.link"
       ]
     }
   }
