@@ -6,8 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "link": {
+    "href": {
       "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "linkStyle": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "text button",
+        "button"
+      ],
       "required": true
     }
   }
