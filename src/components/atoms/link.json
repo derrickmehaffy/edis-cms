@@ -23,6 +23,14 @@
       ],
       "required": true,
       "default": "text"
+    },
+    "buttonColor": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "secondary"
     }
   }
 }
