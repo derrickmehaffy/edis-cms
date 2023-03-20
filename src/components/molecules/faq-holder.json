@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_molecules_faq_holders",
+  "info": {
+    "displayName": "FAQHolder"
+  },
+  "options": {},
+  "attributes": {
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.faq"
+    }
+  }
+}

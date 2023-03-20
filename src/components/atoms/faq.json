@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_atoms_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "faqTitle": {
+      "type": "string",
+      "required": true
+    },
+    "faqContent": {
+      "type": "richtext"
+    }
+  }
+}
