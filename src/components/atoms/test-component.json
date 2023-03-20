@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_atoms_test_components",
+  "info": {
+    "displayName": "test component"
+  },
+  "options": {},
+  "attributes": {
+    "testComponent": {
+      "type": "string"
+    }
+  }
+}
